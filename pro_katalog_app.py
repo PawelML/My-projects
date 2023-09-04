@@ -8,7 +8,7 @@ from langchain.llms import OpenAI
 from langchain.chains import RetrievalQA
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your_api_key"
 
 # Function to create a question-answering chain
 def create_qa_chain(vectordb):
